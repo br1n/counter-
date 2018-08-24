@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+</head>
+<body>
+    
+    <h1>Counter</h1>
+    
+    <p>{{session['counter']}}</p>
+
+    <form action="/add2" method="POST">
+        <button>+2</button>
+    </form>
+
+    <form action="/clear" method="post">
+        <button>Clear Counter</button>
+    </form>
+    </body>
+</html>
